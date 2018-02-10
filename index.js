@@ -14,7 +14,4 @@ function toBengaliNum (num) {
   }
 }
 
-hexo.extend.helper.register('toBengaliNum', function(num) {
-  console.log(toBengaliNum(num));
-  return toBengaliNum(num);
-});
+hexo.extend.helper.register('toBengaliNum', toBengaliNum);
